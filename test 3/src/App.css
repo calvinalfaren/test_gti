@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .input-control {
+    @apply w-full border border-gray-300 text-gray-500 rounded-md text-xs p-2 mb-2;
+  }
+  .list-navbar-active {
+    @apply w-full flex justify-start items-center px-4 py-3 mb-2 bg-gray-100 border-l-4 border-sky-700 cursor-pointer text-sky-700;
+  }
+  .list-navbar {
+    @apply w-full flex justify-start items-center px-4 py-3 mb-2 hover:bg-gray-100 cursor-pointer text-gray-700;
+  }
+}
